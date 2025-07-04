@@ -26,22 +26,22 @@
 
 <body class="bg-preto-profundo">
     <header class="bg-preto-profundo text-branco-neutro">
-        <div class="container mx-auto flex justify-between items-center py-1">
+        <div class="container mx-auto flex sm:flex-col md:flex-row flex-col sm:justify-center md:justify-between items-center sm:py-1 py-3">
             <div class="flex items-center">
                 <div class="rounded-full w-30 h-30 flex justify-center items-center overflow-hidden">
                 <img src="assets/images/LOGO - SCHEILA.png" class="">
             </div>
-            <div>
+            <div class="hidden sm:hidden md:block">
                 <h1 class="text-3xl font-thin font-playfair">
                     Scheila Baú Gabriel - <span class="font-bold text-dourado-principal uppercase">Holding</span>
                 </h1>
             </div>
             </div>
             <div>
-                <ul class="flex items-center space-x-4 font-inter font-thin text-[1.2rem]">
-                    <li class="uppercase"><a href="#inicio"><span class="link link-underline link-underline-black">Inicio</span></a></li>
-                    <div class="h-5 w-[0.5px] bg-branco-neutro"></div>
-                    <li class="uppercase"><a href="https://wa.me/message/Q64MXUP2O7WRL1"><i class="bi bi-whatsapp text-green-700 mr-2"></i><span class="link link-underline link-underline-black">Whatsapp</span></a></li>
+                <ul class="flex md:flex-row sm:flex-col items-center space-x-4 font-inter font-thin text-lg md:text-[1.2rem] mb-5 sm:mb-5 md:mb-0">
+                    <li class="uppercase mb-2 sm:mb-2 md:mb-0"><a href="#inicio"><span class="link link-underline link-underline-black">Inicio</span></a></li>
+                    <div class="block sm:hidden md:block h-5 w-[0.5px] bg-branco-neutro"></div>
+                    <li class="uppercase"><a href="https://wa.me/message/Q64MXUP2O7WRL1"><span class="link link-underline link-underline-black">Whatsapp</span></a></li>
                 </ul>
             </div>
         </div>
@@ -53,21 +53,21 @@
 
     <section class="bg-linear-to-t from-cinza-carvao/30 to-preto-profundo text-branco-neutro">
         <div class="container mx-auto text-branco-neutro">
-            <h2 class="text-1xl font-playfair w-[50%] text-right ml-auto my-5">
+            <h2 class="text-1xl font-playfair sm:w-full md:w-[50%] w-full sm:text-center md:text-right text-center sm:ml-auto sm:mr-0 mx-auto my-5">
                 "Há <span class="text-dourado-principal font-400">forças</span> que não vemos, mas sentimos quando <span
                     class="text-dourado-principal">o amor</span> guia uma família. É nesse solo seguro que nasce o
                 verdadeiro cuidado."
             </h2>
-            <div class="flex justify-between items-center flex-col md:flex-row gap-10 w-full h-120 overflow-hidden">
-                <div class="flex flex-col w-[50vw] font-playfair text-center text-dourado-principal font-bold">
-                    <h1 class="text-8xl underline">SCHEILA</h1>
-                    <h1 class="text-7xl">BAÚ GABRIEL</h1>
+            <div class="flex justify-between items-center flex-col md:flex-row sm:gap-0 md:gap-10 w-full sm:h-120 overflow-hidden">
+                <div class="flex flex-col sm:w-[50vw] font-playfair text-center text-dourado-principal font-bold">
+                    <h1 class="hidden sm:block sm:text-4 md:text-6xl lg:text-8xl text-4xl underline">SCHEILA</h1>
+                    <h1 class="hidden sm:block sm:text-3 md:text-5xl lg:text-7xl text-5xl">BAÚ GABRIEL</h1>
                     <button class="bg-cinza-carvao mx-auto text-branco-neutro cursor-pointer uppercase font-inter text-1xl py-3 px-6 mt-5 rounded-lg hover:bg-dourado-claro hover:text-preto-profundo transition duration-300">
                        <a href="https://wa.me/message/Q64MXUP2O7WRL1">Entre em contato</a>
                     </button>
                 </div>
                 <div class="w-[50vw] flex justify-center items-center">
-                    <img src="assets/images/scheila01.png" class="w-150 translate-y-48">
+                    <img src="assets/images/scheila01.png" class="sm:w-150 w-full h-full translate-y-0 sm:translate-y-0 md:translate-y-0 lg:translate-y-48">
                 </div>
             </div>
 
@@ -75,13 +75,13 @@
     </section>
 
     <section id="inicio" class="bg-bege-claro text-preto-profundo py-10">
-        <div class="container mx-auto text-left w-full">
+        <div class="container px-2 sm:px-0 mx-auto sm:text-left md:text-center text-center w-full">
             <h1 class="text-5xl font-bold text-dourado-principal font-playfair">Sobre mim</h1> 
             <p class="text-preto-profundo text-2xl mt-10 font-thin">
                 Formada em Direito pela <span class="font-playfair text-dourado-principal">UNIPAR – TOLEDO</span> há mais de 20 anos, é advogada e especialista em <span class="font-bold text-dourado-principal">Holding Familiar</span>, fazendo
                 parte do <span class="font-bold text-dourado-principal">Time Holding Brasil.</span>
             </p>
-            <p class="text-preto-profundo text-2xl mt-1 font-thin">
+            <p class="text-preto-profundo text-2xl sm:mt-1 mt-10 font-thin">
                 Além disso também trabalha com direito das sucessões e família, como inventários, partilhas e divórcios.
             </p>
             <p class="text-preto-profundo text-2xl mt-1 font-thin">
@@ -102,17 +102,17 @@
 
         <div>
             <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10">
-                <div class="bg-branco-neutro shadow-xl p-5 rounded-lg text-center">
+                <div class="bg-branco-neutro shadow-xl p-5 rounded-lg sm:w-full mx-auto w-[75%] text-center">
                     <i class="bi bi-lock-fill text-6xl text-dourado-principal"></i>
                     <h2 class="text-dourado-principal text-2xl mb-3">Holding Familiar</h2>
                     <p class="text-preto-profundo">Planejamento Patrimonial</p>
                 </div>
-                <div class="bg-branco-neutro shadow-xl p-5 rounded-lg text-center">
+                <div class="bg-branco-neutro shadow-xl p-5 rounded-lg sm:w-full mx-auto w-[75%] text-center">
                     <i class="bi bi-backpack3-fill text-6xl text-dourado-principal"></i>
                     <h2 class="text-dourado-principal text-2xl mb-3">Sucessão</h2>
                     <p class="text-preto-profundo">Inventário, partilha...</p>
                 </div>
-                <div class="bg-branco-neutro shadow-xl p-5 rounded-lg text-center">
+                <div class="bg-branco-neutro shadow-xl p-5 rounded-lg sm:w-full mx-auto w-[75%] text-center">
                     <i class="bi bi-people-fill text-6xl text-dourado-principal"></i>
                     <h2 class="text-dourado-principal text-2xl mb-3">Família</h2>
                     <p class="text-preto-profundo">Divórcio</p>
@@ -145,17 +145,17 @@
             </button>
         </div>
 
-        <div id="resposta" class="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[50%] border border-preto-profundo bg-branco-neutro shadow-xl rounded px-6 py-4 mt-2 mx-auto hidden z-0">
-            <p class="text-preto-profundo font-inter font-[200] text-2xl mb-4">
+        <div id="resposta" class="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 sm:w-[50%] md:w-full w-full border border-preto-profundo bg-branco-neutro shadow-xl rounded px-6 py-4 mt-2 mx-auto hidden z-0">
+            <p class="text-preto-profundo font-inter sm:text-2xl font-bold sm:font-200 text-sm sm:mb-4 mb-1">
                 Sessão de Viabilidade é muito mais que uma reunião. Trata-se de uma das partes mais importantes no serviço, onde meu escritório fará um diagnóstico para te revelar SE o sistema de Holding Familiar é para sua família e COMO prosseguir na construção do croqui que levará à execução do SEU SISTEMA DE Holding Familiar.
             </p>
-            <p class="text-preto-profundo font-inter font-[200] text-2xl mb-4">Para agendar sua sessão de viabilidade, basta apertar o botão abaixo e você será direcionado ao contato do whatsapp do escritório, onde então será agendada sua sessão.
+            <p class="text-preto-profundo font-inter font-[200] sm:text-2xl font-bold text-sm sm:mb-4 mb-1">Para agendar sua sessão de viabilidade, basta apertar o botão abaixo e você será direcionado ao contato do whatsapp do escritório, onde então será agendada sua sessão.
 A Sessão de Viabilidade tem o custo do valor de R$ 1.000,00 (sujeito a condições de pagamento). </p>
-            <p class="text-preto-profundo font-inter font-[200] text-2xl mb-4">E minha equipe irá agendar o dia da Sessão de Viabilidade, que poderá ser totalmente online, pelo aplicativo do Meeting ou ainda de forma presencial, conforme for a necessidade da família.</p>
+            <p class="text-preto-profundo font-inter font-[200] sm:text-2xl font-bold text-sm sm:mb-4 mb-1">E minha equipe irá agendar o dia da Sessão de Viabilidade, que poderá ser totalmente online, pelo aplicativo do Meeting ou ainda de forma presencial, conforme for a necessidade da família.</p>
             
-            <div class="flex items-center justify-center space-x-4 mt-5">
-                <button class="bg-dourado-principal text-bege-claro font-inter font-bold text-2xl py-3 px-6 mt-10 cursor-pointer text-right rounded-lg hover:bg-cinza-carvao transition duration-300 block"><a href="https://wa.me/message/Q64MXUP2O7WRL1">Entrar em contato</a></button>
-                <button onclick="esconde()" class="bg-dourado-principal text-bege-claro font-inter font-bold text-2xl py-3 px-6 mt-10 cursor-pointer text-left rounded-lg hover:bg-cinza-carvao transition duration-300 block">Cancelar</button>
+            <div class="flex items-center justify-center space-x-4 sm:mt-5 mt-1">
+                <button class="bg-dourado-principal text-bege-claro font-inter font-bold sm:text-2xl text-sm py-3 sm:px-6 px-3 sm:mt-10 mt-2 cursor-pointer text-right rounded-lg hover:bg-cinza-carvao transition duration-300 block"><a href="https://wa.me/message/Q64MXUP2O7WRL1">Entrar em contato</a></button>
+                <button onclick="esconde()" class="bg-dourado-principal text-bege-claro font-inter font-bold sm:text-2xl text-sm py-3 sm:px-6 px-3 sm:mt-10 mt-2 cursor-pointer text-left rounded-lg hover:bg-cinza-carvao transition duration-300 block">Cancelar</button>
             </div>
         </div>
 
@@ -209,9 +209,9 @@ A Sessão de Viabilidade tem o custo do valor de R$ 1.000,00 (sujeito a condiç�
     </section>
 
     <footer class="text-branco-neutro bg-preto-profundo py-5">
-        <div class="container mx-auto flex flex-row justify-between items-center">
+        <div class="container px-5 sm:px-0 sm:mx-auto flex flex-row justify-between items-center">
             <div>
-                <p class="text-sm font-thin">
+                <p class="text-sm sm:w-full w-[50%] font-thin">
                     &copy; 2025 Scheila Baú Gabriel - Holding Familiar. Todos os direitos reservados.
                 </p>
             </div>
